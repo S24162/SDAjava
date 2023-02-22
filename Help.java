@@ -13,7 +13,7 @@ public enum Help {
     // Ctrl +(Shift) + "[" / "]" - Go to end / start of block
     // Alt + up/down - go to next metod
     // Ctrl + f1 - Show inspection description
-    // Ctrl + space - Fine and fast
+    // Ctrl + space - methods of function
     // Ctrl + P - poles of method
     // Alt + Shift + up/down - change lines
     // Alt + Shift - selection in several places
