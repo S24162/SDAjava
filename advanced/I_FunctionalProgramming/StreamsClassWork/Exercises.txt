@@ -1,0 +1,16 @@
+Zadanie: znajomi na Facebooku
+    Przy użyciu Streams napisz zbiór metod, które reprezentują kwerendy do bazy danych znajomych na Facebooku.
+Każda metoda powinna przyjmować jako parametr obiekt typu List<Person>, gdzie Person to klasa zawierająca
+imię, nazwisko, wiek oraz listę hobby (stringów).
+    Zaimplementuj następujące kwerendy przy pomocy Streams
+(możesz najpierw spróbować przy użyciu "tradycyjnych" pętel, aby było prościej):
+    1. Zwróć osobę o danym imieniu i nazwisku.
+    2. Zwróć najstarszą osobę.
+    3. Zwróć imię najmłodszej osoby.
+    4. Zwróć listę osób po 30stce.
+    5. Zwróć średni wiek wszystkich osób z listy.
+    6. Zwróć listę imion wszystkich osób.
+    7. Zwróć listę osób, w kolejności od najmłodszego do najstarszego.
+    8. Zwróć listę hobby wszystkich osób (bez powtórzeń).
+    9. Zwróć listę osób po 20stce, w kolejności od osoby z największą ilością hobby do osoby z najmniejszą ilością hobby.
+   10. Zwróć listę osób, z czego każdej zwiększyłeś wiek o 10 (zmiana ta nie występuje w oryginalnej liście).

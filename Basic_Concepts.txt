@@ -1,0 +1,105 @@
+package pl.sdacademy.java;
+
+
+Class - is a objects template containing fields and methods.
+    Using this templates, class instances are creating.
+Fields -  is a variables inside a class.
+Static ( methods or fields ) - class dependency.
+    Non-static - dependence on the individual object.
+
+() - wykorzystywane przez metody (wywołanie, podanie parametrów)
+[] - wykorzystywane przez tablice (definicja, podanie rozmiaru,
+    podanie indeksu)
+{} - wykorzystywane przez kod (definiowanie bloków kodu, takich jak klasy,
+    metody, instrukcje warunkowe, pętle)
+<> - wykorzystywane przez typy generyczne (określaniu typu docelowego)
+
+Relationship between classes :
+    Association - one has one.
+    Aggregation - one has many.
+        (by using Collections or Arrays
+        i.e. one object has several objects inside list variable)
+        ( Aggregation != multiple associations )
+    Inverted aggregation - many has one.
+        ( it does if many objects have the same instance
+        of the same object inside )
+    Many have many. (Several different objects A have
+        a list of objects B.)
+    Composition - connection between objects by indirect reference.
+    Composition-association - one has one via one.
+        ( one A has one C, through one B )
+    Composition-aggregation - one has many via one.
+        ( one A has many C, through list in one B )
+    Composition-aggregation - one has one via many.
+        ( one A through list has many B, that contains one C  )
+    Composition-aggregation - one has many via many.
+        ( one A has list of many B, that contains list of many C )
+
+An enum - special class that represents a group
+    of predetermined constant values.
+Singleton - class that may have only one instance.
+
+Collections :
+    Array - fixed-size ordered collection.
+    List - variable-size ordered collection.
+    Set - variable-size unordered collection, without duplicates.
+    Map is a variable-size unordered collection, with unique keys,
+    and a single value for each key.
+    Stack - FILO.
+    Queue - FIFO.
+
+
+                    OOP basic concepts:
+
+1. Abstraction - replacing a concrete implementation with an abstract concept.
+2. Encapsulation - programming technique that restricts access
+    to data, methods or classes, in order
+    to achieve better access control, better  code understanding,
+    to keep the code clean and organized.
+3. Inheritance - mechanism in which one class acquires(extends)
+    the property of another class.
+4. Polymorphism (  inheritance, interfaces or generic types) -
+    ability of objects to return different
+    responses to the same request. ( A objB = new B(); )
+    ( use of a single symbol to represent multiple different types )
+Composition - using members of other classes inside classes.
+
+Fields and Methods access modifiers:
+    private - accessible to the class only.
+    [default / package-private] - accessible to the class and package.
+    protected - accessible to class, package, and subclasses(in other packages).
+    public - accessible to everything.
+Class access modifiers:
+    [default / package-private] class - visible only for classes from the same package.
+    public class - accessible to everything.
+final in class or methods - means forbiddance of inheritance or overriding.
+
+OOP - is a programming paradigm based on the concept of "objects",
+    which can contain data and code. The data is
+    in the form of fields (often known as attributes or properties),
+    and the code is in the form of procedures (often known as methods).
+
+Deklaracja klasy ananimowej:
+                    .calc(x -> x * 3)
+    //              x - parametr; -> - @Override metody z interfejsu; x*3 ciało metody do overrajdu
+    Metoda bez parametrów:
+    () ->
+    Metoda z jednym parametrem:
+    (param) ->
+    param ->
+    Metoda z wieloma parametrami:
+    (a, b) ->
+
+Predicate<T> - funkcja przyjmująca jedną wartość typu T, zwracająca true lub false (kryterium)
+
+Comparator<T> - funkcja przyjmująca jako parametr, extractor typu T,
+zwracający -1 (mniejszość), 0 (równość) lub 1 (większość).
+    Służy do porównywania obiektów w ramach funkcji typu min czy max.
+    Extractor<T> - funkcja, która z obiektów danego typu, pozyskuje w określony sposób wartość do porównania
+    videoGame.getValue() - non-static call of a non-static method on an object
+    VideoGame.staticMethod() - static call of a static method on a class
+    VideoGame::getvalue - referencing a non-static method on a class
+
+
+Function<? super T, ?> - funkcja, przyjmująca jako parametr jeden obiekt typu T,
+i zwracająca obiekt jakiegoś typu (na danej kolekcji, typ zwrotny musi być zawsze taki sam)

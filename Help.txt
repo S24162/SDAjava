@@ -1,0 +1,48 @@
+package pl.sdacademy.java;
+
+    // alt + ctrl + L - autoFormat
+    // ctrl + a  - autoSelect
+    // ctrl + d - autoCopy
+    // Ctrl+Shift+Enter - autoInsert
+    // Shift + F6 - refactor
+    // Ctrl + ` -> 4 -> 1 presentation mode
+    // Ctrl + q  - Java doc (close : Shift + Esk)
+    // Ctrl +(Shift) + "+" / "-" - Expand/collapse code block
+    // Ctrl +(Shift) + "[" / "]" - Go to end / start of block
+    // Alt + up/down - go to next metod
+    // Ctrl + f1 - Show inspection description
+    // Ctrl + space - shows methods of function that possible to use in this place
+    // Ctrl + P - poles of method
+    // Alt + Shift + up/down - change lines
+    // Alt + Shift - selection in several places
+    // F4 - goto methode source  ( Ctrl + Click L / Ctrl + B )
+    // Ctrl + F Searching
+    // Alt + Ctrl + S - preferences
+    // Shift + Alt + < or > - bigger\smaller text
+    // Ctrl + Shift + up/down - moving line up or down
+    // Alt + Enter - shows menu of red problems (methods implementation)
+    //      (Ctrl + q) in this mode give a preview)
+    // Ctrl + Alt + A - add file to tracking by Git
+    // Alt + Ctrl + V(/C) - extracting variables into new one (/make class constant)
+    // Shift + Ctrl + T - make test
+    //Ctrl + Alt + Shift + U - make UML diagram
+
+
+    // zeal - program z metodami i klasami fajny!
+    // OpenCSV - Maven library for work with .csw
+    // https://junit.org/junit5/docs/current/user-guide/ - Documentation JUnit5
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.9.2 - JUnit library
+    // TODO
+
+    hashcode!!!? and equals
+
+    // given
+
+    // when
+
+    // then
+
+
+    Bolislav1709
+    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
+

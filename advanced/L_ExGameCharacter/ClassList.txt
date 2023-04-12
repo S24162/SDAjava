@@ -1,0 +1,43 @@
+Trello , HackNplan - planning
+
+
+Zaprojektuj hierarchię klas i interfejsów oraz zaimplementuj kilka podstawowych mechanik
+dla gry komputerowej RPG (nie musi to być w pełni funkcjonalna aplikacja):
+    Gracz - składa się z następujących modułów: tożsamość, statystyki, ekwipunek
+    Tożsamość gracza - rasa (człowiek, elf, krasnolud, etc.) oraz imię
+    Statystyki gracza - punkty zdrowia, magii i siły, które mogą się wyczerpywać oraz odnawiać. Ich maksymalny poziom
+        może być powiększany na stałe za pomocą eliksirów oraz tymczasowo za pomocą przedmiotów z ekwipunku.
+    Ekwipunek gracza - można w nim przechowywać przedmioty, takie jak miecze, eliksiry, zbroja i artefakty.
+        Gracz może "założyć" jeden miecz, jedną zbroję i trzy artefakty, może też wypić eliksir. Ekwipunek ma limit udźwigu. Ekwipunek ma także sakiewkę ze złotem.
+    Przedmioty - każdy przedmiot można kupić, sprzedać, włożyć do ekwipunku albo użyć.
+        Każdy przedmiot ma swoją wartość w złocie oraz masę.
+    Miecze zwiększają siłę gracza (dopóki jest założony)
+    Zbroja zwiększa zdrowie gracza (dopóki jest założona)
+    Artefakty mogą zwiększać punkty zdrowia, magii lub siły (w zależności od artefaktu, dopóki są założone)
+    Eliksiry trwałe mogą na stałe zwiększać zdrowie, magię lub siłę gracza po wypiciu (w zależności od eliksiru)
+    Eliksiry zwykłe mogą odnowić obecny stan zdrowia, magii lub siły gracza po wypiciu (w zależności od eliksiru)
+    Handlarz - można z nim handlować (kupować przedmioty za złoto lub sprzedawać przedmioty za złoto)
+    Potwór - można z nim walczyć, po zabiciu daje złoto
+
+
+Ogólna lista klas:
+1.Character
+2. Player
+3. CharacterRace - Enum
+4. CharacterIdentity
+5. CharacterStatistic
+6. CharacterStatisticType - Enum
+7. CharacterStats
+8. CharacterEquipment
+9. Item
+10. EquippableItem
+11. ConsumableItem
+12. Sword
+13. Armor
+14. Artifact
+15. Elixir
+16. PermanentElixir
+17. Merchant
+18. Monster
+19. Tradeable - Interface
+20. Fightable - Interface
